@@ -22,7 +22,7 @@ var Item = function(content, username){
 
 var db;
 
-var dev_db_ur = "mongodb+srv://ryan:Aa452156739@facelookcluster-9krii.mongodb.net/test?retryWrites=true";
+var dev_db_url = "mongodb+srv://ryan:Aa452156739@facelookcluster-9krii.mongodb.net/test?retryWrites=true";
 var mongoDB = process.env.MONGODB_URI || dev_db_url;
 // mongodb+srv://ryan:<PASSWORD>@cluster0-ymnhf.mongodb.net/test?retryWrites=true
 // Remember to change YOUR_USERNAME and YOUR_PASSWORD to your username and password! 
