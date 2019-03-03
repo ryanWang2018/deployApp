@@ -1,23 +1,25 @@
 {
-  "name": "todo",
+  "name": "deployapp",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.0.0"
+  },
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanWang2018/deployApp.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanWang2018/deployApp/issues"
+  },
+  "homepage": "https://github.com/ryanWang2018/deployApp#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie": "^0.3.1",
-    "crypto": "^1.0.1",
-    "express": "^4.16.4",
-    "express-session": "^1.15.6",
-    "mongodb": "^3.1.13",
-    "nedb": "^1.8.0",
-    "nodemon": "^1.18.10",
-    "path": "^0.12.7",
-    "validator": "^9.4.1"
+    "mongodb": "^3.1.13"
   }
 }
