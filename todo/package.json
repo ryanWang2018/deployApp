@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ryanWang2018/deployApp#readme",
   "dependencies": {
     "express-session": "^1.15.6",
+    "heroku": "^7.22.2",
     "mongodb": "^3.1.13",
     "nedb": "^1.8.0",
     "validator": "^10.11.0"
